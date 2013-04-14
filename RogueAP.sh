@@ -31,7 +31,7 @@ mv /etc/dhcp3/dhcpd.conf /etc/dhcp3/dhcpd.conf.backup;
 echo "   ";
 echo "   ";
 airmon-ng ;
-echo "Enter the name of your interface. Should be wlan0...";
+echo "Enter the name of your interface. Should be Wlan0...";
 read interface;
 airmon-ng start $interface;
 
@@ -40,7 +40,7 @@ sleep 4;
 echo "   ";
 echo "   ";
 echo "Airbase for fake WiFi AP on different window"
-gnome-terminal -x airbase-ng -v -e $ssid -c 9 mon0 ;
+gnome-terminal -x airbase-ng -a C6:21:30:EE:64:64 -v -e $ssid -c 9 mon0 ;
 
 sleep 4;
 
