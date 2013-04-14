@@ -40,7 +40,7 @@ sleep 4;
 echo "   ";
 echo "   ";
 echo "Airbase for fake WiFi AP on different window"
-gnome-terminal -x airbase-ng -a C6:21:30:EE:64:64 -v -e $ssid -c 9 mon0 ;
+gnome-terminal -x airbase-ng -v -e $ssid -c 9 mon0 ;
 
 sleep 4;
 
