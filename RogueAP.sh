@@ -33,7 +33,7 @@ echo "   ";
 airmon-ng ;
 echo "Enter the name of your interface. Should be Wlan0...";
 read interface;
-airmon-ng start $interface;
+airmon-ng start $interface ;
 
 sleep 4;
 
